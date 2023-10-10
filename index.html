@@ -1,12 +1,389 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!-- Generated on 2023-10-10, 04:57:17 --><!DOCTYPE html><html lang="en" xmlns="https://www.w3.org/1999/xhtml" xmlns:og="https://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml"><head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>page</title>
-</head>
+    <meta lang="en">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume - Huy Huynh</title>
+    <meta property="og:title" content="Resume - Huy Huynh">
+    <meta name="description" content="This is my latest resume.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Xaveee.github.io/">
+    <meta property="og:image" content="">
+    <meta property="og:image:secure" content="">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:description" content="This is my latest resume.">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@username">
+    <meta name="twitter:creator" content="@username">
+    <meta name="twitter:title" content="Resume - Huy Huynh">
+    <meta name="twitter:description" content="This is my latest resume.">
+    <meta name="twitter:image" content="">
+
+    <meta name="author" content="Huy Huynh">
+
+    <link rel="canonical" href="https://Xaveee.github.io/">
+    <link rel="icon" href="">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+    <style>/* variables */
+/* font-size */
+:root {
+    --font-size: clamp(0.6875rem, 0.5136rem + 1.0303vw, 1.75rem);
+}
+
+body {
+    margin: calc(3.5 * var(--font-size)) 16vw;
+    background-color: #1a1a1a;
+    font-family: 'K2D', sans-serif;
+    color: rgba(255, 255, 255, 0.78);
+    scrollbar-gutter: stable both-edges;
+
+    font-size: var(--font-size);
+    line-height: calc(1.9 * var(--font-size));
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.55);
+}
+
+::-webkit-scrollbar-corner {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+code {
+    background-color: #424242;
+    border-radius: calc(0.4 * var(--font-size));
+    padding: calc(0.1 * var(--font-size)) calc(0.42 * var(--font-size));
+    margin: 0 calc(0.1 * var(--font-size));
+}
+
+a {
+    color: #9aafd6;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+a:hover {
+    color: #c5d4e6;
+}
+
+/* underline animation left to right */
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #9aafd6;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#print-friendly {
+    display: block;
+    position: fixed;
+    top: calc(0.5 * var(--font-size));
+    right: calc(0.8 * var(--font-size));
+
+    font-size: calc(0.8 * var(--font-size));
+
+    opacity: 0.4;
+    z-index: 100;
+}
+
+#print-friendly:hover {
+    opacity: 0.7;
+}
+
+img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+h1 {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 1rem;
+
+    font-size: calc(2 * var(--font-size));
+}
+
+h2 {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 0.8rem;
+
+    font-size: calc(1.6 * var(--font-size));
+}
+
+h3 {
+    font-size: calc(1.5 * var(--font-size));
+}
+
+ul {
+    padding-left: calc(1.8 * var(--font-size));
+}
+
+
+@media screen and ((max-width < 900) or (orientation: portrait)) {
+    body {
+        margin: calc(3.5 * var(--font-size)) calc(2 * var(--font-size) + 1.1vw);
+
+    }
+}
+
+
+
+
+/* Custom classes */
+.full-width {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.giant-text {
+    font-size: calc(3.5 * var(--font-size));
+    line-height: calc(1.0 * 3.5 * var(--font-size));
+}
+
+.huge-text {
+    font-size: calc(2.5 * var(--font-size));
+    line-height: calc(1.0 * 2.5 * var(--font-size));
+}
+
+.xlarge-text {
+    font-size: calc(1.8 * var(--font-size));
+    line-height: calc(1.12 * 1.8 * var(--font-size));
+}
+
+.large-text {
+    font-size: calc(1.5 * var(--font-size));
+    line-height: calc(1.2 * 1.5 * var(--font-size));
+}
+
+.medium-text {
+    font-size: calc(1.2 * var(--font-size));
+    line-height: calc(1.4 * 1.2 * var(--font-size));
+}
+
+.regular-text {
+    font-size: var(--font-size);
+    line-height: calc(1.8 * var(--font-size));
+}
+
+.small-text {
+    font-size: calc(0.8 * var(--font-size));
+    line-height: calc(1.9 * 0.8 * var(--font-size));
+}
+
+.xsmall-text {
+    font-size: calc(0.6 * var(--font-size));
+    line-height: calc(1.9 * 0.6 * var(--font-size));
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.low-margin {
+    margin: 0.5rem;
+}
+
+.low-margin-top {
+    margin-top: 0.5rem;
+}
+
+.low-margin-bottom {
+    margin-bottom: 0.5rem;
+}
+
+.no-border {
+    border: none;
+}
+
+.dim {
+    opacity: 0.7;
+}
+
+.list-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    list-style-type: none;
+    padding: 0;
+}
+
+.gap-row-1 {
+    row-gap: calc(1.1 * var(--font-size));
+}
+.gap-row-2 {
+    row-gap: calc(2.2 * var(--font-size));
+}
+.gap-row-3 {
+    row-gap: calc(3.3 * var(--font-size));
+}
+.gap-row-4 {
+    row-gap: calc(4.4 * var(--font-size));
+}
+.gap-row-5 {
+    row-gap: calc(5.5 * var(--font-size));
+}
+
+.gap-col-1 {
+    column-gap: calc(1.1 * var(--font-size));
+}
+.gap-col-2 {
+    column-gap: calc(2.2 * var(--font-size));
+}
+.gap-col-3 {
+    column-gap: calc(3.3 * var(--font-size));
+}
+.gap-col-4 {
+    column-gap: calc(4.4 * var(--font-size));
+}
+.gap-col-5 {
+    column-gap: calc(5.5 * var(--font-size));
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.space-center {
+    justify-content: center;
+}</style><style>pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5px}.hljs{color:#abb2bf;background:#26292e}.hljs-comment,.hljs-quote{color:#5c6370;font-style:italic}.hljs-doctag,.hljs-formula,.hljs-keyword{color:#c678dd}.hljs-deletion,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-subst{color:#e06c75}.hljs-literal{color:#56b6c2}.hljs-addition,.hljs-attribute,.hljs-meta .hljs-string,.hljs-regexp,.hljs-string{color:#98c379}.hljs-attr,.hljs-number,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-pseudo,.hljs-template-variable,.hljs-type,.hljs-variable{color:#d19a66}.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-symbol,.hljs-title{color:#61aeee}.hljs-built_in,.hljs-class .hljs-title,.hljs-title.class_{color:#e6c07b}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}.hljs-link{text-decoration:underline}</style></head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus facere distinctio excepturi consequuntur cum at velit tenetur eos vitae architecto alias, quam quaerat odio quidem, magnam deleniti aut necessitatibus sit.</p>
-    
-</body>
-</html>
+    <div id="print-friendly">
+    <a href="Resume - DA.pdf">Print Friendly</a>
+</div>
+<h1 id="huy-huynh" class="giant-text center no-border low-margin-bottom">Huy Huynh</h1>
+<blockquote class="low-margin-top">
+  <p class="regular-text bold low-margin-top full-width list-row space-center gap-col-3">Springfield, Missouri<br>
+  <a href="mailto:huyhuynh.031201@gmail.com">huyhuynh.031201@gmail.com</a></p>
+</blockquote>
+<p><br></p>
+<h2 id="education">EDUCATION</h2>
+<table class="full-width">
+<thead>
+<tr class="list-row medium-text">
+<th id="bs_in_computer_science" style="text-align:center;" class="bold medium-text">BS in Computer Science</th>
+<th id="_¨c1c_" style="text-align:center;" class="bold medium-text"><em><code class="regular-text">Aug 2019 - May 2023</code></em></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<h3 id="missouri-state-university-–-springfield-mo" class="regular-text italic low-margin-top">Missouri State University – Springfield, MO</h3>
+<ul>
+<li>GPA 3.7/4.0</li>
+<li>International Leadership Scholarship (2019-2023)</li>
+<li>Dean’s List for 7 consecutive semesters</li>
+</ul>
+<p><br></p>
+<h2 id="work-experience">Work Experience</h2>
+<table class="full-width">
+<thead>
+<tr class="list-row medium-text">
+<th id="data_engineer_intern" style="text-align:center;" class="bold medium-text">Data Engineer Intern</th>
+<th id="_¨c3c_" style="text-align:center;" class="bold medium-text"><em><code class="regular-text">Nov 2021 – Dec 2022</code></em></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<h3 id="city-utilities-of-springfield-–-springfield-mo" class="regular-text italic low-margin-top">City Utilities of Springfield – Springfield, MO</h3>
+<ul>
+<li>Orchestrated the collection and aggregation of historical data spanning over several years, compiling a comprehensive dataset for business intelligence and insights.</li>
+<li>Implemented, and maintained Azure data factory pipelines for efficient ETL processes, ingesting and processing daily data using Apache Spark and storing it in Delta Lake.</li>
+<li>Consolidated 20+ SQL servers into a centralized architecture, reducing hardware cost, improving data management and query performance for various applications.</li>
+<li>Oversaw a repository of databases, providing essential data support to staff members across diverse departments, including Network, Application, Business Intelligence, and Security.</li>
+<li>Automated manual tasks using Shell script, significantly reducing manual intervention, improving data accuracy, and optimizing overall process efficiency.</li>
+</ul>
+<table class="full-width">
+<thead>
+<tr class="list-row medium-text">
+<th id="research_analyst_assistant" style="text-align:center;" class="bold medium-text">Research Analyst Assistant</th>
+<th id="_¨c5c_" style="text-align:center;" class="bold medium-text"><em><code class="regular-text">Jan 2022 – May 2022</code></em></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<h3 id="missouri-state-university-–-springfield-mo-1" class="regular-text italic low-margin-top">Missouri State University – Springfield, MO</h3>
+<ul>
+<li>Utilized TensorFlow to implement Proximal Policy Optimization algorithm for StarCraft 2 multi-agent reinforcement learning environment using the PySC2 library.</li>
+<li>Automated data pipelines with multithreading techniques to optimize data processing, minimize processing time, and maximize hardware utilization.</li>
+<li>Analyzed models performance and other relevant metrics, such as weights, gradients, rewards, and win rate, using Weights and Bias to determine new parameters for enhanced model performance.</li>
+</ul>
+<p><br></p>
+<h2 id="projects">Projects</h2>
+<table class="full-width">
+<thead>
+<tr class="list-row medium-text">
+<th id="person_reidentification_on_a_camera_network" style="text-align:center;" class="bold medium-text">Person Reidentification on A Camera Network</th>
+<th id="_¨c7c_" style="text-align:center;" class="bold medium-text"><em><code class="regular-text">Aug 2021 – Dec 2021</code></em></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<ul>
+<li>Managed a team of 7 members to develop a robust proof of concept for a person reidentification system using PyTorch, OpenCV, and the DBSCAN clustering method.</li>
+<li>Designed and implemented the framework of the core application, facilitating the seamless development of individual modules and ensuring modularity for future scalability.</li>
+<li>Developed the feature extraction module, achieving impressive performance with the capability to extract features from up to 50 images per second and organize them chronologically.</li>
+</ul>
+<table class="full-width">
+<thead>
+<tr class="list-row medium-text">
+<th id="2048_reinforcement_learning_bot" style="text-align:center;" class="bold medium-text">2048 Reinforcement Learning Bot</th>
+<th id="_¨c9c_" style="text-align:center;" class="bold medium-text"><em><code class="regular-text">Jan 2022 – Aug 2022</code></em></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<ul>
+<li>Developed a custom game engine in Python and established an API that allowed seamless integration with reinforcement learning scripts while enabling score tracking for performance evaluation.</li>
+<li>Implemented Temporal Difference Double Deep Q Network (TD-DDQN) to address the overestimation problem in traditional Deep Q Networks, resulting in more stable and accurate Q-value predictions.</li>
+</ul>
+<p><br></p>
+<h2 id="technical-skills">Technical Skills</h2>
+<p><strong><em>Languages:</em></strong> <code class="regular-text">Python</code>, <code class="regular-text">C++</code>, <code class="regular-text">C</code>, <code class="regular-text">Golang</code>, <code class="regular-text">SQL</code>, <code class="regular-text">T-SQL Shell script</code>, <code class="regular-text">JavaScript</code><br>
+<strong><em>Tools:</em></strong> <code class="regular-text">Databricks</code>, <code class="regular-text">Apache Spark</code>, <code class="regular-text">Azure Data Factory</code>, <code class="regular-text">Git</code>, <code class="regular-text">Redgate</code>, <code class="regular-text">PostgreSQL</code>, <code class="regular-text">Microsoft SQL servers</code>, <code class="regular-text">Oracle</code><br>
+<strong><em>Frameworks/libraries:</em></strong> <code class="regular-text">TensorFlow</code>, <code class="regular-text">PyTorch</code>, <code class="regular-text">pandas</code>, <code class="regular-text">NumPy</code>, <code class="regular-text">Matplotlib</code></p>
+
+</body></html>
