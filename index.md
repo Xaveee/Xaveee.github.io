@@ -35,8 +35,8 @@
 - Oversaw a repository of databases, providing essential data support to staff members across diverse departments, including Network, Application, Business Intelligence, and Security.
 - Automated manual tasks using Shell script, significantly reducing manual intervention, improving data accuracy, and optimizing overall process efficiency.
 
-| Research Analyst Assistant | _`Jan 2022 – May 2022`_ |
-| :------------------------: | :---------------------: |
+| Research Analyst Assistant | _`June 2021 – June 2022`_ |
+| :------------------------: | :-----------------------: |
 
 ### Missouri State University – Springfield, MO
 
